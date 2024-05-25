@@ -3,3 +3,4 @@
 .fak_cache/
 build/
 subprojects/fak/
+.DS_Store

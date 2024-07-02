@@ -1,4 +1,4 @@
-let { ColToRowKey, .. } = import "fak/keyboard.ncl" in
+let { RowToColKey, .. } = import "fak/keyboard.ncl" in
 let { CH559L, .. } = import "fak/mcus.ncl" in
 
 {
@@ -11,12 +11,12 @@ let { CH559L, .. } = import "fak/mcus.ncl" in
   matrix = {
     # Net:  col1, col2, col3, col4, col5, col6, col7, col8, col9, col10, col11, col12, col13, col14, col15
     cols = [26,   25,   24,   23,   22,   21,   20,   37,   36,   35,    34,    33,    32,    31,    04],
-    
+
     # Net:  row1, row2, row3, row4, row5
     rows = [27,   30,   17,   16,   15]
   },
   keys =
-    let M = ColToRowKey in
+    let M = RowToColKey in
     [
         M 0 0, M 1 0, M 2 0, M 3 0, M 4 0, M 5 0, M 6 0, M 7 0, M 8 0, M 9 0, M 10 0, M 11 0, M 12 0,         M 14 0,
         M 0 1, M 1 1, M 2 1, M 3 1, M 4 1, M 5 1, M 6 1, M 7 1, M 8 1, M 9 1, M 10 1, M 11 1, M 12 1, M 13 1, M 14 1,

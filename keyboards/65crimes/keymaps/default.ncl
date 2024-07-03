@@ -25,7 +25,7 @@ let TRANS = tap.trans & hold.trans in
       TRANS  , TRANS  , TRANS  , TRANS  , TRANS  , TRANS  , TRANS  , TRANS  , TRANS  , TRANS  , TRANS  , TRANS  ,          TRANS  , TRANS  ,
       TRANS  , TRANS  , TRANS  , TRANS  , TRANS  , TRANS  , TRANS  , TRANS  , TRANS  , TRANS  , TRANS  ,          TRANS  , TRANS  , TRANS  ,
       TRANS  , md.lalt, md.lgui, TRANS  ,          TRANS  ,          TRANS  ,          TRANS  , TRANS  ,          TRANS  , TRANS  , TRANS  ,
-    ]
+    ],
     # FUNC
     [
       tg 1  , kc.F1  , kc.F2  , kc.F3  , kc.F4 , kc.F5 , kc.F6 , kc.F7 , kc.F8  , kc.F9  , kc.F10 , kc.F11 , kc.F12 ,              TRANS  ,

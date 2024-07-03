@@ -13,8 +13,8 @@ let TRANS = tap.trans & hold.trans in
     # BASE
     [
       kc.ESC , kc.N1  , kc.N2  , kc.N3  , kc.N4 , kc.N5 , kc.N6 , kc.N7 , kc.N8  , kc.N9  , kc.N0  , kc.MINS, kc.EQL ,          kc.BSLS,
-      kc.TAB , kc.Q   , kc.W   , kc.E   , kc.R  , kc.T  , kc.Y  , kc.U  , kc.I   , kc.O   , kc.P   , kc.LBRC, kc.RBRC, kc.BSPC, kc.DEL ,
-      kc.CAPS, kc.A   , kc.S   , kc.D   , kc.F  , kc.G  , kc.H  , kc.J  , kc.K   , kc.L   , kc.SCLN, kc.QUOT,          kc.ENT , kc.PGUP,
+      kc.GRV , kc.Q   , kc.W   , kc.E   , kc.R  , kc.T  , kc.Y  , kc.U  , kc.I   , kc.O   , kc.P   , kc.LBRC, kc.RBRC, kc.BSPC, kc.DEL ,
+      kc.TAB , kc.A   , kc.S   , kc.D   , kc.F  , kc.G  , kc.H  , kc.J  , kc.K   , kc.L   , kc.SCLN, kc.QUOT,          kc.ENT , kc.PGUP,
       md.lsft, kc.Z   , kc.X   , kc.C   , kc.V  , kc.B  , kc.N  , kc.M  , kc.COMM, kc.DOT , kc.SLSH,          md.rsft, kc.UP  , kc.PGDN,
       md.lctl, md.lgui, md.lalt, kc.SPC ,         kc.SPC,         kc.SPC,          mo 2   , md.rctl,          kc.LEFT, kc.DOWN, kc.RIGHT,
     ],
@@ -28,9 +28,9 @@ let TRANS = tap.trans & hold.trans in
     ],
     # FUNC
     [
-      tg 1  , kc.F1  , kc.F2  , kc.F3  , kc.F4 , kc.F5 , kc.F6 , kc.F7 , kc.F8  , kc.F9  , kc.F10 , kc.F11 , kc.F12 ,              TRANS  ,
+      tg 1   , kc.F1  , kc.F2  , kc.F3  , kc.F4 , kc.F5 , kc.F6 , kc.F7 , kc.F8  , kc.F9  , kc.F10 , kc.F11 , kc.F12 ,              TRANS  ,
       TRANS  , TRANS  , TRANS  , TRANS  , TRANS  , TRANS  , TRANS  , TRANS  , TRANS  , TRANS  , TRANS  , TRANS  , TRANS  , TRANS  , TRANS  ,
-      TRANS  , TRANS  , TRANS  , TRANS  , TRANS  , TRANS  , TRANS  , TRANS  , TRANS  , TRANS  , TRANS  , TRANS  ,          TRANS  , TRANS  ,
+      kc.CAPS, TRANS  , TRANS  , TRANS  , TRANS  , TRANS  , TRANS  , TRANS  , TRANS  , TRANS  , TRANS  , TRANS  ,          TRANS  , TRANS  ,
       TRANS  , TRANS  , TRANS  , TRANS  , TRANS  , TRANS  , TRANS  , TRANS  , TRANS  , TRANS  , TRANS  ,          TRANS  , TRANS  , TRANS  ,
       TRANS  , TRANS  , TRANS  , TRANS  ,          TRANS  ,          TRANS  ,          TRANS  , TRANS  ,          TRANS  , TRANS  , TRANS  ,
     ],
